@@ -7,6 +7,3 @@ export const auth = betterAuth({
     enabled: true,
   },
 });
-
-// npx @better-auth/cli generate
-// npx @better-auth/cli migrate

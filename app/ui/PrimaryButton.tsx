@@ -3,11 +3,15 @@ import React from "react";
 
 interface PrimaryButtonProps {
   children: React.ReactNode;
+  onClick?: () => void;
 }
 
-export default function PrimaryButton({ children }: PrimaryButtonProps) {
+export default function PrimaryButton({
+  children,
+  onClick,
+}: PrimaryButtonProps) {
   return (
-    <Button className="!font-bold" fullWidth={true}>
+    <Button fullWidth onClick={onClick}>
       {children}
     </Button>
   );

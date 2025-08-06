@@ -10,9 +10,9 @@ export default function ForgotPassword() {
         <h1 className="text-2xl font-bold">Forgot Password?</h1>
       </div>
 
-      <div>
+      <form action={""}>
         <Input placeholder="Email address" name="email" />
-      </div>
+      </form>
 
       <PrimaryButton>Send</PrimaryButton>
 
