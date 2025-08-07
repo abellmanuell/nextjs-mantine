@@ -5,22 +5,22 @@ export default function Demo() {
     <>
       <ul className="p-20">
         <li>
-          <Link href="/dashboard" className="underline text-sky-500">
+          <Link href="/dashboard" className="underline text-blue-600">
             Dashboard
           </Link>
         </li>
         <li>
-          <Link href="/login" className="underline text-sky-500">
+          <Link href="/login" className="underline text-blue-600">
             Login
           </Link>
         </li>
         <li>
-          <Link href="/signup" className="underline text-sky-500">
+          <Link href="/signup" className="underline text-blue-600">
             Sign up
           </Link>
         </li>
         <li>
-          <Link href="/reset_password" className="underline text-sky-500">
+          <Link href="/reset_password" className="underline text-blue-600">
             Reset password
           </Link>
         </li>

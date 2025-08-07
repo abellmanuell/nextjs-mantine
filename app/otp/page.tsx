@@ -14,12 +14,12 @@ export default function OTP() {
       </div>
 
       <p className="text-sm text-gray-500">
-        Code expires in <span className="font-bold text-sky-500">5:23</span>
+        Code expires in <span className="font-bold text-blue-600">5:23</span>
       </p>
 
       <p className="text-sm">
         Don&apos;t get code?
-        <Button variant="transparent" className="text-sky-500 font-bold">
+        <Button variant="transparent" className="text-blue-600 font-bold">
           Resend code
         </Button>
       </p>

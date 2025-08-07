@@ -55,7 +55,7 @@ export default function Page() {
           <div>
             <Link
               href="/forgot_password"
-              className="text-sm text-sky-500 text-right block"
+              className="text-sm text-blue-600 text-right block"
             >
               Forgot Password?
             </Link>
@@ -65,7 +65,7 @@ export default function Page() {
 
           <p className="text-sm">
             Don&apos;t have an account?{" "}
-            <Link href="/signup" className="text-sky-500 font-bold">
+            <Link href="/signup" className="text-blue-600 font-bold">
               Sign up
             </Link>
           </p>

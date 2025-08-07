@@ -1,1 +1,22 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-poppins), sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-lexend), sans-serif;
+}
+
+/* Or define your own utility classes */
+.font-poppins {
+  font-family: var(--font-poppins), sans-serif;
+}
+
+.font-lexend {
+  font-family: var(--font-lexend), sans-serif;
+}

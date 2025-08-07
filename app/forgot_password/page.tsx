@@ -19,7 +19,7 @@ export default function ForgotPassword() {
           <PrimaryButton>Send</PrimaryButton>
           <p className="text-sm">
             Don&apos;t have an account?{" "}
-            <Link href="/signup" className="text-sky-500 font-bold">
+            <Link href="/signup" className="text-blue-600 font-bold">
               Sign up
             </Link>
           </p>
